@@ -13,51 +13,14 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
-
-.fade-in , body{ 
-    animation: fadeInAnimation ease 2s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-}
-
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-    } 
-}
-
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 999;
-    font-size: 14px;
-    font-family: "Josefin Sans";
-    letter-spacing: 1px;
-    border: none;
-    outline: none;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    opacity: 0.7;
-    border-radius: 4px;
-}
       
-#myBtn:hover {
-    background-color: #555;
-}
-.my_navbar {
+/* .my_navbar {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
     width: 100%; 
-}
+} */
 
 @media (max-width: 991px) {
       .my_navbar {
@@ -79,14 +42,14 @@ a {
 .my_navbar .nav-item .nav-link.active {
         color: #fff; 
 }
-.my_navbar.scrolled {
+/* .my_navbar.scrolled {
       background: rgba(0, 0, 0, 0.8);
       position: fixed;
       right: 0;
       left: 0;
       top: 0;
       margin-top: -130px; 
-}
+} */
 
 .my-bootstrap-cover {
     background-repeat: no-repeat;

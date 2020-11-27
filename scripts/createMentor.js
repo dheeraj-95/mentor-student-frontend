@@ -35,35 +35,3 @@ async function createMentor() {
 
     createMentorBtn.innerHTML = 'Create Mentor'
 }
-
-function custom_alert(type, message) {
-    let newAlert = $("#message");
-    newAlert.html(`
-    <div class="fade-in text-center m-0 alert alert-${type} alert-dismissible fade show" role="alert">
-    ${message}
-    <button type="button" class="close" data-dismiss="alert" onclick="close()" aria-label="Close">
-       <span aria-hidden="true">&times;</span>
-    </button>
-    <br>
-    </div>`);
-    setTimeout(() => {
-        newAlert.html("");
-    }, 3000);
-}
-
-var mybutton = document.getElementById("myBtn");
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    }
-    else {
-        mybutton.style.display = "none";
-    }
-}
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
