@@ -125,7 +125,7 @@ function UpdateMentorTable(){
         mentorRow.appendChild(CurrentMentor);
 
         const Assigncol = document.createElement('td')
-        Assigncol.innerText =  "Not Applicable"
+        Assigncol.innerText =  "Mentor Not Yet Assigned"
         mentorRow.appendChild(Assigncol);
         MentorsTable.appendChild(mentorRow);
         StudentsTableDiv.appendChild(MentorsTable);
