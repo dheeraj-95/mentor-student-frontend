@@ -23,9 +23,13 @@ a {
 } */
 
 @media (max-width: 991px) {
-      .my_navbar {
+    .my_navbar {
         background: rgba(0, 0, 0, 0.6); 
-    } 
+    }
+}
+
+#create-student-ul a{
+    color: black;
 }
 .my_navbar .nav-item .nav-link {
       padding: 1.6em 1em;
@@ -35,12 +39,12 @@ a {
       font-weight: 400; 
 }
 @media (max-width: 991px) {
-        .my_navbar .nav-item .nav-link {
+    .my_navbar .nav-item .nav-link {
           padding: .5em 0; 
-        } 
-    }
+    } 
+}
 .my_navbar .nav-item .nav-link.active {
-        color: #fff; 
+    color: #fff; 
 }
 /* .my_navbar.scrolled {
       background: rgba(0, 0, 0, 0.8);
